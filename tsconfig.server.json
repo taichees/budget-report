@@ -1,0 +1,10 @@
+// for Next custom-server
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs", // Next.jsとExpressの両方を連携させるために、commmonjsを利用
+      "outDir": "./dist",
+      "noEmit": false, // Next.jsはBebelを使用してTypeScriptをコンパイルするので、TSコンパイラはjsを出力しない。設定を上書きする。
+    },
+    "include": ["./server"]
+  }
