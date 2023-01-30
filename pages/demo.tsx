@@ -5,7 +5,7 @@ import { getRequestInstance } from "../modules/request";
 const Page: NextPage = ({ data }: any) => {
     return data.map(
         // eslint-disable-next-line react/jsx-key
-        (d: any, index: number) => <div>{index}番目のデータ: {d.any_column}</div>
+        (d: any, index: number) => <div>{index}番目のデータ: {JSON.stringify(d)}</div>
     )
 }
 Page.getInitialProps = async (ctx: any) => {
