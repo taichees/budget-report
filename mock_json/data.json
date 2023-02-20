@@ -1,0 +1,10 @@
+[
+    {
+        "_id": {
+            "$oid": "TEST_OID"
+        },
+        "name": "NAME",
+        "num": "10000",
+        "bool": "False"
+    }
+]
