@@ -8,7 +8,7 @@
     "dev": "tsc -p tsconfig.server.json && node ./dist/index.js",
     "build:next": "next build",
     "build:server": "tsc -p tsconfig.server.json",
-    "start": "NODE_ENV=production node dist/index.js",
+    "start": "node dist/index.js NODE_ENV=production ",
     "test": "jest"
   },
   "dependencies": {
