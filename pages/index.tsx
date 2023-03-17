@@ -20,13 +20,6 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <div>
-            <Link href="/demo" className={styles.card}>
-              デモページ
-            </Link>
-          </div>
-        </div>
-        <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
@@ -71,6 +64,13 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          <Link href="/demo" className={styles.card}>
+            <h2 className={inter.className}>
+              デモページ <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              デモページを表示します。</p>
+          </Link>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
