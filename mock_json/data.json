@@ -4,5 +4,11 @@
         "name": "NAME",
         "num": 10000,
         "bool": false
+    },
+    {
+        "id": "TEST_OID2",
+        "name": "NAME2",
+        "num": 210000,
+        "bool": true
     }
 ]
