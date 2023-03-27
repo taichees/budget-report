@@ -3,7 +3,7 @@ import { getRequestInstance } from "../modules/request";
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import { Modal_demo } from './component/modal_demo'
+import { Modal_demo } from '../component/modal_demo'
 
 const inter = Inter({ subsets: ['latin'] })
 
