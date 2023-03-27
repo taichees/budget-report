@@ -71,6 +71,13 @@ export default function Home() {
             <p className={inter.className}>
               デモページを表示します。</p>
           </Link>
+          <Link href="/contract_list" className={styles.card}>
+            <h2 className={inter.className}>
+              契約一覧ページ <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              契約一覧ページを表示します。</p>
+          </Link>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
